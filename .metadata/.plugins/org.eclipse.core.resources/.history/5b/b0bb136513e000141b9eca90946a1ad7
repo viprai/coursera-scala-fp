@@ -1,0 +1,13 @@
+package greeter
+
+object Hello{
+
+	def main(args : Array[String])
+	{
+	  
+	  val pattern = "Scala".r
+	  
+
+	}
+
+}

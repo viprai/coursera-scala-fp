@@ -1,0 +1,18 @@
+package greeter
+
+import scala.util.matching.Regex
+
+object Hello{
+
+	def main(args : Array[String])
+	{
+
+	  val AmBn = "a+b+".r
+	  
+	  val str = "Alpha , Beta , Alice , Arun , Boston"
+	    
+	    println((AmBn findAllMatchIn str).mkString(","))
+	  
+	}
+
+}

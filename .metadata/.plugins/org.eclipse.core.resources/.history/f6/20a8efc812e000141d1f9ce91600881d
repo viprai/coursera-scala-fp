@@ -1,0 +1,29 @@
+package greeter
+
+object Hello{
+  
+  def main(args : Array[String])
+  {
+    
+ val alice = new Person("Alice" , 21)
+ val bob = new Person("Bob",22)
+ val mike = new Person("Mike" ,23)
+ 
+ 
+ for(x <- List(alice,bob,mike))
+ {
+   x match {
+     
+     case alice => println("Hello Alice")
+     case bob => println("Hello Bob")
+     case _ => println("Hello Nobody")
+   }
+   
+ }
+    
+    
+  }
+  
+  case class Person(name : String , age : Int)
+  
+}

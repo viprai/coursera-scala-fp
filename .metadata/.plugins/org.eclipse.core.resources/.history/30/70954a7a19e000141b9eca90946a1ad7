@@ -1,0 +1,15 @@
+package greeter
+
+object Hello{
+
+	def main(args : Array[String])
+	{
+	  
+		val pattern = "Scala".r
+		val expr = "Scala is Awesome. Let's Scala."
+		  
+		  println(pattern findAllIn(expr))
+
+	}
+
+}

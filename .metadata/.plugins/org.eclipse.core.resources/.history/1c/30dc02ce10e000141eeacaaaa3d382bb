@@ -1,0 +1,16 @@
+package org.vipul.demo;
+
+public interface ISpecialPower {
+	
+	String specialPower = "Bazooka";
+	
+	
+	 public  void  mySpecialPower()
+	 {
+		 
+	 }
+	
+		
+	
+
+}

@@ -1,0 +1,31 @@
+package org.vipul.demo;
+
+public class SuperHeroMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		SuperHero batMan  = new SuperHero();
+		SuperHero spiderMan =  new SuperHero();
+		
+		
+		batMan.no_Of_Legs = 2 ;
+		batMan.super_Power = "BatMobile";
+		batMan.fly = false;
+		
+		batMan.run();
+		
+		
+		spiderMan.no_Of_Legs = 2 ;
+		spiderMan.super_Power = "BatMobile";
+		spiderMan.fly = false;
+		
+		spiderMan.run();
+		
+		
+		
+
+	}
+
+}

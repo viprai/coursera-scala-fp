@@ -1,0 +1,14 @@
+package greeter
+
+import scala.util.matching.Regex
+
+object Hello{
+
+	def main(args : Array[String])
+	{
+	  
+		val pattern = new Regex("S|s(cala)")
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package org.vipul.demo;
+
+public class SuperHero {
+	
+	int no_Of_Legs = 0;
+	String super_Power = "";
+	boolean fly = false;
+	
+	
+
+}

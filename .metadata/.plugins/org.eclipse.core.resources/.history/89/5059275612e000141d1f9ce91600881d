@@ -1,0 +1,15 @@
+package greeter
+
+object Hello{
+  
+  def main(args : Array[String])
+  {
+    
+ 
+    
+    
+  }
+  
+  case class Person(name : String , age : Int)
+  
+}

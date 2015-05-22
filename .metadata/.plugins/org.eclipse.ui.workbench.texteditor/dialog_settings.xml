@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="&#x0A;  &#x09;val arrayList1 = new ArrayList&#x0A;  &#x09;val arrayList2 = new ArrayList&#x0A;  &#x09;val arrayList3 = new ArrayList" key="selection"/>
+		<list key="findhistory">
+			<item value="&#x0A;  &#x09;val arrayList1 = new ArrayList&#x0A;  &#x09;val arrayList2 = new ArrayList&#x0A;  &#x09;val arrayList3 = new ArrayList"/>
+			<item value="val arrayList1 = new ArrayList"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,33 @@
+package org.vipul.demo;
+
+public class SuperHero implements ISpecialPower{
+	
+	int no_Of_Legs = 0;
+	String super_Power = "";
+	boolean fly = false;
+	
+	public void runOrFly(){
+		
+		if(fly)
+		{
+		
+		System.out.println("I am flying");
+		}
+		else 
+		{
+		
+			System.out.println("I am running");
+			
+		}
+		
+		
+	}
+	
+	public void myCity()
+	{
+		System.out.println("My city is : ");
+	}
+
+}
+
+
